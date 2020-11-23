@@ -1,0 +1,99 @@
+/* nav bar */
+
+nav {
+	height: 30%;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+
+	overflow: hidden;
+}
+
+/* TITLE TEXT */
+
+.title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	width: 100%;
+}
+
+nav h1 {
+	font-size: 3rem;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	margin-bottom: -1rem;
+	padding: 0;
+
+	align-self: flex-start;
+}
+
+nav h2 {
+	font-size: 2rem;
+	font-family: 'Yeseva One', cursive;
+	color: grey;
+
+	align-self: flex-end;
+
+	margin: 0;
+	padding: 0;
+
+}
+
+/* PAGINATION AND IG ICON */
+
+/* PAGINATION */
+
+.nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+ul {
+	display: flex;
+	column-gap: 0.5em;
+
+	margin: 1rem 0 0 0;
+	padding: 0;
+
+	font-size: 1.5rem;
+}
+
+li{
+	position: relative;
+	list-style: none;
+	text-decoration: none;
+}
+
+a:link {
+	color: grey;
+	text-decoration: none;
+}
+
+a:active {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: grey;
+	text-decoration: none;
+}
+
+/* IG ICON */
+
+nav img {
+	height: 1.5rem;
+	width: 1.5rem;
+}
+
+
+/*  */
