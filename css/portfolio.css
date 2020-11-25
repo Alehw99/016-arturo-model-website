@@ -25,7 +25,40 @@ body {
 }
 
 #gallery img {
+	background-color: white;
 	object-fit: cover;
 	height: 100%;
 	width: 100%;
+
+	transition: 0.1s transform;
+}
+
+#gallery img:hover {
+	transition: 0.1s ease;
+	transform: scale(1.1);
+}
+
+/* FULLSCREEN OVERLAY */
+
+#fs {
+	position: absolute;
+
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+	background: rgba(0, 0, 0, 50%);
+	height: 100%;
+	width: 100%;
+
+	top: 0%;
+	left: 0%;
+}
+
+#fimg {
+	width: 80%;
+	height: 80%;
+	object-fit: contain;
+
+	z-index: 3;
 }

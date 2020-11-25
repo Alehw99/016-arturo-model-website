@@ -7,27 +7,16 @@ body {
 
 .content {
 	box-sizing: border-box;
+
 	min-height: 62.5%;
 	width: 100%;
 	padding: 10% 0 15% 0;
 
+	color: gray;
+	font-family: serif;
+	font-size: 0.75rem;
+
 	display: flex;
 	justify-content: center;
-	align-items: flex-start;
-}
-
-#list {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	font-size: 1.5rem;
-
-	padding: 0;
-	margin: 0;
-}
-
-#list li {
-	padding: 0;
-	margin: 0;
-	list-style-type: decimal;
+	align-items: center;
 }

@@ -1,0 +1,76 @@
+@media screen and (max-height: 500px){
+	nav h1 {
+		font-size: 2rem;
+		margin-bottom: -0.5rem;
+	}
+
+	nav h2 {
+		font-size: 1rem;
+	}
+
+	ul {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	nav h1 {
+		font-size: 2.5rem;
+	}
+}
+
+
+@media screen and (min-width: 375px) {
+	.title {
+		justify-content: center;
+		align-items: center
+		background-color: red;
+
+	}
+
+	nav h1 {
+		align-self: center;
+	}
+
+	nav h2 {
+		align-self: center;
+	}
+
+}
+
+
+@media screen and (min-width: 750px) {
+
+	nav {
+		flex-direction: row;
+
+		height: 20%;
+	}
+
+	nav h1 {
+		font-size: 2rem;
+		align-self: flex-start;
+		margin-bottom: -0.5rem;
+	}
+
+	nav h2 {
+		font-size: 1.5rem;
+		align-self: flex-start;
+	}
+
+	.nav {
+		flex-direction: row;
+		align-items: center;
+
+		padding: 0;
+	}
+
+	.nav ul {
+		margin: 0;
+	}
+
+	.nav img {
+		margin: .5rem 0 0 3rem;
+	}
+
+}
