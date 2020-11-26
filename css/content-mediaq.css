@@ -2,11 +2,23 @@
 	.content {
 		padding: 2.5%;
 	}
+
+	ol {
+		column-count: 2;
+		column-gap: 3rem;
+		font-size: 1.5rem;
+	}
 }
 
 @media screen and (min-width: 750px) {
 	.content {
 		height: 75%;
 		padding: 2.5%;
+	}
+
+	ol {
+		column-count: 2;
+		column-gap: 3rem;
+		font-size: 2rem;
 	}
 }

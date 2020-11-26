@@ -49,7 +49,7 @@ body {
 /* FULLSCREEN OVERLAY */
 
 #fs {
-	position: absolute;
+	position: fixed;
 
 	display: none;
 	justify-content: center;

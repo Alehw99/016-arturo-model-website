@@ -10,13 +10,17 @@ body {
 
 	min-height: 62.5%;
 	width: 100%;
-	padding: 10% 0 15% 0;
+	padding: 0 0;
 
-	color: gray;
+	color: black;
 	font-family: serif;
-	font-size: 0.75rem;
+	font-size: 1rem;
 
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
+}
+
+ol li {
+	list-style-type: decimal-leading-zero;
 }
