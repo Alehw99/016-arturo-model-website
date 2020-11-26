@@ -32,18 +32,11 @@ body {
 
 	outline: none;
 	border: none;
-
-	transition: 0.1s transform;
 }
 
 #gallery img: {
 	outline: none;
 	border: none;
-}
-
-#gallery img:hover {
-	transition: 0.1s ease;
-	transform: scale(1.1);
 }
 
 /* FULLSCREEN OVERLAY */
@@ -68,5 +61,5 @@ body {
 	height: 80%;
 	object-fit: contain;
 
-	z-index: 3;
+	z-index: 5;
 }
